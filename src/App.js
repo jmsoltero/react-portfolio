@@ -5,6 +5,7 @@ import Header from './screens/header/Header';
 import AboutMe  from './screens/aboutMe/aboutMe';
 import Tech from './screens/tech/Tech';
 import Portfolio from './screens/portfolio/Portfolio';
+import ContactMe from './screens/contactMe/ContactMe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       < AboutMe />
       < Tech />
       < Portfolio />
+      < ContactMe />
   </div>
   );}
 

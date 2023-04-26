@@ -13,7 +13,6 @@ function Portfolio() {
   const [modalShow,setModalShow] = useState(false)
   const [tempData, setTempData] = useState({})
 
- const handleClose = () => setModalShow(false);
   function createModal(data) {
     return(
       < Modal
